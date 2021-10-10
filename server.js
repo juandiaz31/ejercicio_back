@@ -113,7 +113,7 @@ const main = () => {
     console.log("conexion exitosa");
 
     return app.listen(process.env.PORT, () => {
-      console.log('Escuchando el puerto');
+      console.log(`Escuchando el puerto :${process.env.PORT}`);
     });
   });
 };
